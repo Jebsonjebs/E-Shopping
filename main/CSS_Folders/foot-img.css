@@ -1,0 +1,50 @@
+#foot-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(foot-1.jpg);
+  background-position: 20% 30%;
+  background-repeat: no-repeat;
+}
+.f-text h2 {
+  color: white;
+  font-size: 35px;
+}
+.f-text p {
+  color: grey;
+  font-size: 20px;
+}
+.f-text span {
+  color: gold;
+  font-size: 23px;
+}
+.f-email input {
+  height: 4.2rem;
+  padding: 0 1.2em;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  /* border-top-right-radius:0 ;
+   border-bottom-right-radius:0 ; */
+}
+.foot-button {
+  font-size: 15px;
+  padding: 8px 18px;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  transition: 0.2s;
+  border: 1px solid white;
+  color: white;
+  background-color: #388e3c;
+  white-space: nowrap;
+}
+.f-email {
+  display: flex;
+  width: 35%;
+}

@@ -1,0 +1,67 @@
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sm-banner .banner-box {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-image: url(images/small-banner/rose-banner.jpg); */
+  min-width: 610px;
+  width: 610px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#sm-banner h4 {
+  font-size: 35px;
+  font-weight: 400;
+}
+#sm-banner h2 {
+  margin-top: 8px;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+#sm-banner h6 {
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+#sm-banner .sm-b1 {
+  font-size: 16px;
+  padding: 9px 18px;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  transition: 0.2s;
+  border: 1px solid white;
+}
+#sm-banner .sm-b1:hover {
+  background-color: rgb(28, 26, 26);
+  color: white;
+}
+#sm-banner .rose-ban {
+  background-image: url(rose-banner.jpg);
+}
+#sm-banner .orange-ban {
+  color: white;
+  background-image: url(orange-banner.jpg);
+}
+#sm-banner .orange-ban h2 {
+  color: black;
+  font-size: 35px;
+}
+#sm-banner .orange-ban span {
+  color: black;
+  font-size: 40px;
+}
